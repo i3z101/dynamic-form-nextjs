@@ -1,0 +1,46 @@
+.dynamic_form_section_container {
+    margin-top: 2rem;
+}
+
+.dynamic_form_grid_container {
+    width: 90% !important;
+}
+
+.dynamic_form_image_container {
+    margin-left: 1.5rem !important;
+}
+
+.form_text_container {
+    text-align: center;
+    padding-left: 1.7rem;
+}
+
+.form_text {
+    font-size: 30px;
+    text-align: center;
+    background: -webkit-linear-gradient(#8b95ff, #5463FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dynamic_form_group {
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.dynamic_form_send_btn_container {
+    width: 30% !important;
+    margin-bottom: 2rem !important;
+}
+
+@media only screen and (min-width:1023px) {
+    .dynamic_form_group {
+        padding-left: 15rem;
+    }
+    .form_text_container {
+        padding-left: 3.5rem;
+    }
+    .dynamic_form_send_btn_container {
+        width: 20% !important;
+    }
+}

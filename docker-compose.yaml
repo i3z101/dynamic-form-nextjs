@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  dynamic-form:
+    image: i3z101/docker-nextjs-dynamic-form-image
+    container_name: nextjs-dynamicform-container
+    ports:
+      - '3000:3000'
