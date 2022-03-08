@@ -33,6 +33,7 @@ Install the dependencies and devDependencies and start the server.
 ### If you use docker you should follow this instructions:
 ```sh
 docker-compose up
+http://localhost:3000/
 ```
 
 ### If you don't use docker you should follow this instructions:
@@ -40,6 +41,7 @@ docker-compose up
 npm i
 npm run build
 npm run start
+http://localhost:3000/
 ```
 
 ## Plugins
